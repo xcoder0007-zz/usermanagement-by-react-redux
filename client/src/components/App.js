@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Users from './users'
+import Users from './../containers/users'
 import './css/App.css';
 
 class App extends Component {
