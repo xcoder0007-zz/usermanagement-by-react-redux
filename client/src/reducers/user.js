@@ -1,11 +1,5 @@
 import axios from 'axios';
 
 export default async function (){
-  await axios.get(url)
-  .then(function (response) {
-    return response.data
-  })
-  .catch(function (error) {
-    return error
-  });
+  return await axios.get('https://jsonplaceholder.typicode.com/users').then(res => res.data)
 }
